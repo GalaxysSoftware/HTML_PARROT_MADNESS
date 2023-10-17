@@ -111,7 +111,7 @@ setTimeout(() => {endwindow = open('https://github.com/GalaxysSoftware/HTML_PARR
 window.addEventListener('message', receiveMessage);
 
 function receiveMessage(event) {
-  if (event.origin !== null && event.origin !== 'null') return; // Optional security check
+  if (event.origin !== window.location.origin) console.log(event.origin) return; // Optional security check
   if (event.data === "CloseWindows") {
     // Close All Windows
     openedWindow0.close();
