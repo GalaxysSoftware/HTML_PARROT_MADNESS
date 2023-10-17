@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <link rel="stylesheet" href="endscreen.css">
+</head>
+<body>
+    <div class="centerend">
+        <p class="textcenter2">Thanks For Using this parrot infested website</p>
+        <p class="textcenter2">hopefully you got a laugh or two out of it</p>
+        <p class="textcenter2">make sure to check out other projects we have made on the github by clicking the button below :D </p>
+        <button class="button" onclick="opengit()">VISIT THE GALAXY'S SOFTWARE GITHUB</button> <button class="button2" onclick="endwindowall()">CLOSE WINDOW</button>
+      </div>
+</body>
+
+<script>
+function endwindowall() {
+        window.opener.postMessage('CloseWindowsEnd', '*');
+}
+
+function opengit() {
+window.open('https://github.com/GalaxysSoftware', '_blank')
+}
+</script>
+
+</html> 

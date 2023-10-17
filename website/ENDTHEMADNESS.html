@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <link rel="stylesheet" href="endscreen.css">
+</head>
+<body>
+    <div class="center">
+        <p class="textcenter2">We would put more parrots but your computer probably wouldnt handle it well.</p>
+        <p class="textcenter2">Hm, it seems like the "ENDTHEMADNESS" button isnt working as of right now you have to close the windows manually.</p>
+        <p class="textcenter2">PROTIP: Hover over the browser in the taskbar to close windows easier</p>
+        <button type="button" onclick="endall()">END THE MADNESS (DISABLED TO PREVENT DAMAGE DUE TO ERROR)</button>
+      </div>
+</body>
+
+<script>
+function endall() {
+        window.opener.postMessage('CloseWindows', '*');
+}
+</script>
+
+</html> 
