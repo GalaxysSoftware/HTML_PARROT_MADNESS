@@ -9,3 +9,5 @@ if you dont like your screen getting filled by parrots no problem! you can click
 fr tho this repo was made for fun please dont use the code for bad
 
 the website wass made in an hour and get fixed a bit over a bit longer
+
+# Website: https://galaxyssoftware.github.io/HTML_PARROT_MADNESS
